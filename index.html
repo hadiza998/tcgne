@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1925">
+<meta name="description" content="Twelve Consulting Group (TCG Niger) — cabinet de conseil stratégique, développement d'affaires et accompagnement multisectoriel au Niger et à l'international.">
+<title>TCG Niger | Twelve Consulting Group</title>
+<style>
+:root{--navy:#081925;--navy2:#102d3c;--gold:#c9a76f;--gold2:#e8cfaa;--cream:#faf8f3;--text:#223440;--muted:#667681;--border:#dce3e5;--panel:#0d2231}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.65;background:#fff}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:auto;padding:0 28px}
+.top{background:var(--navy);color:#d7e3e7;font-size:12px;letter-spacing:.13em;text-transform:uppercase;padding:9px 0}.top .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}.top a:hover{color:#fff}
+header{position:sticky;top:0;z-index:30;background:#fff;box-shadow:0 1px 20px #091b2912}.nav{height:86px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;gap:14px;align-items:center;min-width:0}.brand-logo{width:54px;height:54px;border-radius:10px;object-fit:cover;border:1px solid #e7d4b0;background:#fff}.brand strong{display:block;letter-spacing:.16em;font-size:16px;color:var(--navy)}.brand small{display:block;letter-spacing:.14em;color:var(--muted);font-size:9px}
+.links{display:flex;align-items:center;gap:26px;font-size:13px;font-weight:600}.links a:hover{color:#9a713c}
+.nav-actions{display:flex;align-items:center;gap:10px}.menu-toggle{display:none;width:42px;height:42px;border:1px solid #ccd5d9;border-radius:4px;background:#fff;color:var(--navy);cursor:pointer;align-items:center;justify-content:center}.menu-toggle span,.menu-toggle:before,.menu-toggle:after{content:"";display:block;width:19px;height:2px;background:currentColor;transition:transform .2s,opacity .2s}.menu-toggle span{margin:4px 0}.menu-toggle[aria-expanded="true"] span{opacity:0}.menu-toggle[aria-expanded="true"]:before{transform:translateY(6px) rotate(45deg)}.menu-toggle[aria-expanded="true"]:after{transform:translateY(-6px) rotate(-45deg)}
+.btn{border:1px solid var(--gold);background:var(--gold);color:#091925;display:inline-flex;align-items:center;justify-content:center;padding:13px 22px;font-size:12px;font-weight:800;letter-spacing:.05em;cursor:pointer;transition:.2s}.btn:hover{background:#e3c28b;border-color:#e3c28b}.btn.outline{background:transparent;color:#fff}.btn.outline:hover{background:#ffffff16}.btn.ghost{background:transparent;color:var(--navy)}.btn.ghost:hover{background:#f7f2e7}
+.lang{border:1px solid #ccd5d9;border-radius:3px;background:#fff;padding:8px 10px;cursor:pointer;color:var(--navy);font-weight:700}
+.hero{background:linear-gradient(120deg,#061722f8 8%,#0a2638ef 58%,#123746e6),radial-gradient(circle at 78% 24%,#a99160,transparent 26%);color:#fff;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 0,transparent 50%,#ffffff04 100%)}.hero:after{content:"";position:absolute;right:-120px;top:-160px;width:620px;height:620px;border:1px solid #c8a8753d;border-radius:50%;box-shadow:0 0 0 90px #c8a8750b,0 0 0 180px #c8a87508;pointer-events:none}
+.hero-inner{min-height:690px;display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center;position:relative;z-index:1;padding-top:70px;padding-bottom:90px}.hero-content{max-width:760px}.eyebrow{color:var(--gold);text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:.23em;margin:0 0 18px}.hero h1{font:normal clamp(38px,5.2vw,72px)/1.05 Georgia,'Times New Roman',serif;letter-spacing:-.03em;margin:0 0 22px}.hero h1 em{font-style:normal;color:#dfbf8b}.hero p.lead{font-size:18px;color:#d4dfe4;max-width:710px;margin:0 0 28px}.hero-list{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin:0 0 32px;padding:0;list-style:none;color:#edf2f4;font-size:14px}.hero-list li:before{content:"•";color:var(--gold);font-weight:900;margin-right:8px}.cta{display:flex;gap:13px;flex-wrap:wrap}.hero-note{border-left:2px solid var(--gold);padding-left:17px;margin-top:42px;color:#c1cdd2;font-size:13px}.hero-side{background:linear-gradient(180deg,#ffffff0e,#ffffff08);border:1px solid #ffffff18;padding:24px;border-radius:18px;backdrop-filter:blur(6px);box-shadow:0 24px 80px #03121d55}.hero-card-logo{width:100%;max-width:370px;margin:0 auto 22px;border-radius:16px;background:#fff;padding:16px}.hero-stats{display:grid;grid-template-columns:1fr 1fr;gap:14px}.stat{border:1px solid #ffffff18;border-radius:14px;padding:18px 16px;background:#07182480}.stat .n{font:normal 28px Georgia,serif;color:var(--gold2);display:block;margin-bottom:6px}.stat p{margin:0;color:#d9e4e9;font-size:13px}
+.section{padding:100px 0}.section.alt{background:var(--cream)}.section.dark{background:#f5f7f8}.section-head{max-width:780px;margin-bottom:44px}.section h2{font:normal clamp(32px,4vw,49px)/1.14 Georgia,serif;letter-spacing:-.02em;color:var(--navy);margin:0 0 18px}.section-head>p:last-child,.copy{color:var(--muted);font-size:16px}.cols{display:grid;grid-template-columns:1.03fr .97fr;gap:62px;align-items:center}.statement{border-left:3px solid var(--gold);font:normal 25px/1.45 Georgia,serif;padding-left:24px;color:var(--navy)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.tile{border:1px solid var(--border);padding:34px 26px;background:#fff;min-height:255px;border-radius:14px;box-shadow:0 10px 22px #10222e08}.tile .num{font:normal 24px Georgia,serif;color:var(--gold)}.tile h3{font:normal 23px/1.23 Georgia,serif;color:var(--navy);margin:24px 0 11px}.tile p{font-size:14px;color:var(--muted);margin:0}
+.band{background:var(--navy);color:#fff;padding:34px 0}.band .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}.band h3{margin:0 0 10px;font:normal 28px Georgia,serif}.band p{margin:0;color:#ccd8dd}.pill-grid{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end}.pill{padding:10px 14px;border:1px solid #ffffff20;border-radius:999px;font-size:13px;color:#e6edf0;background:#ffffff08}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.step{border-top:2px solid var(--gold);padding:19px 17px 8px 0}.step span{color:var(--gold);font:normal 24px Georgia,serif}.step h3{font-size:16px;margin:18px 0 8px}.step p{font-size:13px;color:var(--muted);margin:0}
+.two-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.feature-box{padding:28px;border:1px solid var(--border);border-radius:14px;background:#fff}.feature-box h3{margin:0 0 10px;color:var(--navy);font:normal 24px Georgia,serif}.feature-box p{margin:0;color:var(--muted)}.checklist{margin:16px 0 0;padding:0;list-style:none}.checklist li{margin:10px 0;color:var(--text)}.checklist li:before{content:"✓";color:var(--gold);font-weight:900;margin-right:10px}
+.contact-section{background:linear-gradient(130deg,#071722,#0d2231);color:white;padding:95px 0}.contact-section h2{font:normal clamp(32px,4vw,52px)/1.1 Georgia,serif;max-width:650px;margin:0 0 18px}.contact-section p{max-width:620px;color:#c6d2d9;margin-bottom:30px}.contact-section .mail{font-size:24px;color:#e4c595;word-break:break-word}.contact-wrap{display:flex;align-items:flex-start;justify-content:space-between;gap:35px}.contact-aside{border-left:1px solid #61717b;padding-left:30px;font-size:14px;color:#dbe4e7}.contact-aside b{display:block;color:var(--gold);font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:12px}
+footer{background:#06131d;color:#8497a4;padding:28px 0;font-size:12px}footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.legal{background:#fff5dc;color:#684f29;font-size:12px;padding:10px 28px;text-align:center}
+[data-fr],[data-en]{display:none}html[lang="fr"] [data-fr],html[lang="en"] [data-en]{display:initial}html[lang="fr"] .block[data-fr],html[lang="en"] .block[data-en]{display:block}
+@media(max-width:980px){.hero-inner,.cols,.band .wrap{grid-template-columns:1fr}.hero-side{max-width:520px}.pill-grid{justify-content:flex-start}.grid{grid-template-columns:1fr 1fr}.two-grid{grid-template-columns:1fr}.contact-wrap{display:block}.contact-aside{margin-top:38px}}
+@media(max-width:850px){header{position:sticky}.nav{height:76px;position:relative}.menu-toggle{display:flex;flex-direction:column}.links{display:none;position:absolute;left:0;right:0;top:76px;padding:12px 20px 20px;background:#fff;border-top:1px solid var(--border);box-shadow:0 16px 30px #091b2920;flex-direction:column;align-items:stretch;gap:0}.links.open{display:flex}.links a{padding:13px 2px;border-bottom:1px solid #edf0f1;font-size:15px}.links a:last-child{border-bottom:0}.hero-inner{min-height:unset;padding-top:60px;padding-bottom:70px}.section{padding:76px 0}.steps{grid-template-columns:1fr 1fr}.hero-list{grid-template-columns:1fr}.grid{gap:12px}.tile{min-height:auto}}
+@media(max-width:560px){.wrap{padding:0 18px}.top{font-size:9px;letter-spacing:.08em;padding:7px 0}.top .wrap{justify-content:center;text-align:center;gap:2px}.top .wrap>*{width:100%}.nav{height:68px;gap:10px}.links{top:68px}.brand{gap:9px}.brand strong{font-size:11px;letter-spacing:.1em}.brand small{font-size:7px;letter-spacing:.08em}.brand-logo{width:42px;height:42px}.lang{padding:7px 8px}.menu-toggle{width:38px;height:38px}.hero-inner{padding-top:46px;padding-bottom:54px;gap:34px}.hero h1{font-size:clamp(34px,10.5vw,42px);line-height:1.08}.hero p.lead{font-size:16px;line-height:1.6}.eyebrow{font-size:10px;letter-spacing:.17em}.hero-list{font-size:13px;gap:9px}.hero-note{margin-top:30px}.hero-side{padding:16px;border-radius:14px}.hero-card-logo{margin-bottom:14px;padding:10px}.hero-stats{grid-template-columns:1fr}.stat{padding:15px}.stat .n{font-size:23px}.section{padding:58px 0}.section h2{font-size:clamp(29px,8.5vw,38px)}.section-head{margin-bottom:30px}.cols{gap:34px}.statement{font-size:21px;padding-left:18px}.steps,.grid{grid-template-columns:1fr}.tile{padding:26px 22px}.tile h3{margin-top:16px}.two-grid{gap:14px}.feature-box{padding:23px 20px}.band{padding:28px 0}.band h3{font-size:25px}.pill-grid{gap:8px}.pill{padding:8px 11px;font-size:12px}.cta{gap:10px}.cta .btn{width:100%;min-height:48px}.contact-section{padding:58px 0}.contact-section .mail{font-size:19px}.contact-aside{padding-left:20px;margin-top:32px}footer .wrap{display:block;text-align:center}footer .wrap span{display:block;margin:5px 0}.legal{padding:10px 18px}.hero:after{width:420px;height:420px;right:-250px}}
+@media(max-width:380px){.brand span{display:none}.hero h1{font-size:32px}.hero-stats{grid-template-columns:1fr}.contact-section .mail{font-size:17px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span data-fr>Niger · Conseil stratégique · Développement d'affaires</span><span data-en>Niger · Strategic advisory · Business development</span><a href="mailto:contact@tcgne.com">contact@tcgne.com</a></div></div>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#accueil" aria-label="TCG Niger">
+      <img class="brand-logo" src="assets/logo-twelve.jpg" alt="Twelve Consulting Group logo">
+      <span><strong>TWELVE CONSULTING GROUP</strong><small>TCG NIGER · STRATEGIC ADVISORY</small></span>
+    </a>
+    <nav class="links" id="main-navigation" aria-label="Navigation principale">
+      <a href="#apropos"><span data-fr>À propos</span><span data-en>About</span></a>
+      <a href="#services"><span data-fr>Services</span><span data-en>Services</span></a>
+      <a href="#secteurs"><span data-fr>Secteurs</span><span data-en>Sectors</span></a>
+      <a href="#approche"><span data-fr>Notre approche</span><span data-en>Our approach</span></a>
+      <a href="#contact"><span data-fr>Contact</span><span data-en>Contact</span></a>
+    </nav>
+    <div class="nav-actions">
+      <button id="language" class="lang" aria-label="Switch language">EN</button>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-controls="main-navigation" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="accueil">
+    <div class="wrap hero-inner">
+      <div class="hero-content">
+        <p class="eyebrow"><span data-fr>Twelve Consulting Group · Niger & international</span><span data-en>Twelve Consulting Group · Niger & international</span></p>
+        <h1>
+          <span data-fr>Une expertise stratégique.<br><em>Des solutions pour tous les secteurs.</em></span>
+          <span data-en>Strategic expertise.<br><em>Solutions across industries.</em></span>
+        </h1>
+        <p class="lead">
+          <span data-fr>Twelve Consulting Group (TCG Niger) accompagne entreprises, investisseurs, institutions et porteurs de projets avec une approche professionnelle, structurée et orientée résultats. Nous mobilisons un réseau d'experts et des stratégies adaptées pour transformer les opportunités en actions concrètes.</span>
+          <span data-en>Twelve Consulting Group (TCG Niger) supports companies, investors, institutions and project leaders through a professional, structured and results-driven approach. We mobilize expert insight and tailored strategies to turn opportunities into concrete action.</span>
+        </p>
+        <ul class="hero-list">
+          <li><span data-fr>Conseil stratégique et accompagnement de décision</span><span data-en>Strategic advisory and decision support</span></li>
+          <li><span data-fr>Développement d'affaires et mise en relation ciblée</span><span data-en>Business development and targeted introductions</span></li>
+          <li><span data-fr>Expertise multisectorielle et analyses de marché</span><span data-en>Cross-sector expertise and market intelligence</span></li>
+          <li><span data-fr>Approche sérieuse, confidentielle et orientée exécution</span><span data-en>Serious, confidential and execution-focused approach</span></li>
+        </ul>
+        <div class="cta">
+          <a class="btn" href="#contact"><span data-fr>Parler à notre équipe</span><span data-en>Speak with our team</span></a>
+          <a class="btn outline" href="#services"><span data-fr>Découvrir nos services</span><span data-en>Explore our services</span></a>
+        </div>
+        <p class="hero-note"><span data-fr>Nous aidons nos clients à structurer leur vision, sécuriser leurs échanges et avancer avec clarté.</span><span data-en>We help clients structure their vision, secure their engagements and move forward with clarity.</span></p>
+      </div>
+      <aside class="hero-side">
+        <div class="hero-card-logo"><img src="assets/logo-twelve.jpg" alt="Twelve Consulting Group"></div>
+        <div class="hero-stats">
+          <div class="stat"><span class="n">360°</span><p><span data-fr>Vision globale des projets, marchés et parties prenantes.</span><span data-en>Holistic project, market and stakeholder view.</span></p></div>
+          <div class="stat"><span class="n">Multi</span><p><span data-fr>Expertise mobilisable dans plusieurs secteurs d'activité.</span><span data-en>Expertise that can be deployed across industries.</span></p></div>
+          <div class="stat"><span class="n">Local</span><p><span data-fr>Connaissance du terrain et compréhension des réalités du marché.</span><span data-en>Local knowledge and understanding of market realities.</span></p></div>
+          <div class="stat"><span class="n">Global</span><p><span data-fr>Vision internationale pour les partenariats et le développement.</span><span data-en>International perspective for partnerships and growth.</span></p></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="apropos">
+    <div class="wrap cols">
+      <div>
+        <p class="eyebrow"><span data-fr>Qui sommes-nous ?</span><span data-en>Who we are</span></p>
+        <h2><span data-fr>Un cabinet sérieux, agile et tourné vers la performance.</span><span data-en>A serious, agile firm focused on performance.</span></h2>
+        <p class="copy"><span data-fr>TCG Niger est la représentation de Twelve Consulting Group, un cabinet de conseil stratégique et de développement d'affaires. Notre mission est d'apporter aux organisations un appui structuré, une lecture claire des enjeux et des solutions adaptées à leurs objectifs.</span><span data-en>TCG Niger is the Niger representation of Twelve Consulting Group, a strategic advisory and business development firm. Our mission is to provide organizations with structured guidance, clear insight and solutions aligned with their goals.</span></p>
+        <p class="copy"><span data-fr>Nous valorisons la rigueur, la crédibilité, la discrétion et l'efficacité. Grâce à notre approche sur mesure, nous intervenons aussi bien sur des réflexions stratégiques que sur des besoins opérationnels liés aux marchés, aux partenariats et à la croissance.</span><span data-en>We value rigor, credibility, discretion and efficiency. Through a tailored approach, we support both strategic thinking and operational needs related to markets, partnerships and growth.</span></p>
+      </div>
+      <div class="statement"><span data-fr>Notre force : combiner vision stratégique, compréhension du terrain et mobilisation d'expertises adaptées à chaque mission.</span><span data-en>Our strength: combining strategic vision, local understanding and the right expertise for each mission.</span></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <div>
+        <h3><span data-fr>Des experts, des méthodes, des stratégies.</span><span data-en>Experts, methods and strategies.</span></h3>
+        <p><span data-fr>Nous adaptons notre accompagnement aux réalités de chaque secteur et à la nature de chaque projet.</span><span data-en>We tailor our support to each sector's realities and each project's nature.</span></p>
+      </div>
+      <div class="pill-grid">
+        <span class="pill"><span data-fr>Énergie</span><span data-en>Energy</span></span>
+        <span class="pill"><span data-fr>Commerce</span><span data-en>Trade</span></span>
+        <span class="pill"><span data-fr>Infrastructure</span><span data-en>Infrastructure</span></span>
+        <span class="pill"><span data-fr>Investissement</span><span data-en>Investment</span></span>
+        <span class="pill"><span data-fr>Santé</span><span data-en>Healthcare</span></span>
+        <span class="pill"><span data-fr>Agro-industrie</span><span data-en>Agribusiness</span></span>
+        <span class="pill"><span data-fr>Technologie</span><span data-en>Technology</span></span>
+        <span class="pill"><span data-fr>Services</span><span data-en>Services</span></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow"><span data-fr>Nos services</span><span data-en>Our services</span></p>
+        <h2><span data-fr>Un accompagnement professionnel, stratégique et multisectoriel.</span><span data-en>Professional, strategic and cross-sector support.</span></h2>
+        <p><span data-fr>Nous intervenons avec méthode pour aider nos clients à mieux comprendre leur environnement, définir une stratégie claire et avancer avec confiance.</span><span data-en>We work methodically to help clients better understand their environment, define a clear strategy and move forward with confidence.</span></p>
+      </div>
+      <div class="grid">
+        <article class="tile"><div class="num">01</div><h3><span data-fr>Conseil stratégique</span><span data-en>Strategic advisory</span></h3><p><span data-fr>Analyse des enjeux, définition de priorités, recommandations et plans d'action adaptés à vos objectifs.</span><span data-en>Issue analysis, priority setting, recommendations and action plans aligned with your objectives.</span></p></article>
+        <article class="tile"><div class="num">02</div><h3><span data-fr>Études & intelligence de marché</span><span data-en>Market intelligence</span></h3><p><span data-fr>Veille sectorielle, cartographie d'acteurs, compréhension du contexte et identification d'opportunités concrètes.</span><span data-en>Sector intelligence, stakeholder mapping, contextual understanding and opportunity identification.</span></p></article>
+        <article class="tile"><div class="num">03</div><h3><span data-fr>Développement d'affaires</span><span data-en>Business development</span></h3><p><span data-fr>Recherche d'opportunités, mise en relation qualifiée et soutien à la construction de partenariats durables.</span><span data-en>Opportunity sourcing, qualified introductions and support for durable partnerships.</span></p></article>
+        <article class="tile"><div class="num">04</div><h3><span data-fr>Accompagnement de projets</span><span data-en>Project support</span></h3><p><span data-fr>Appui à la structuration, à la coordination et au suivi des étapes clés d'un projet ou d'une initiative.</span><span data-en>Support for structuring, coordination and follow-through on key project milestones.</span></p></article>
+        <article class="tile"><div class="num">05</div><h3><span data-fr>Mise en relation stratégique</span><span data-en>Strategic introductions</span></h3><p><span data-fr>Connexion avec des interlocuteurs pertinents : partenaires, institutions, investisseurs ou acteurs techniques.</span><span data-en>Connections to relevant stakeholders including partners, institutions, investors and technical actors.</span></p></article>
+        <article class="tile"><div class="num">06</div><h3><span data-fr>Approche sur mesure</span><span data-en>Tailored solutions</span></h3><p><span data-fr>Chaque mission est conçue selon votre secteur, votre ambition, vos contraintes et votre niveau d'avancement.</span><span data-en>Every engagement is designed around your sector, ambitions, constraints and stage of development.</span></p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="secteurs">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow"><span data-fr>Secteurs couverts</span><span data-en>Sectors we support</span></p>
+        <h2><span data-fr>Une capacité d'intervention dans plusieurs domaines d'activité.</span><span data-en>Capability across multiple areas of activity.</span></h2>
+      </div>
+      <div class="two-grid">
+        <div class="feature-box">
+          <h3><span data-fr>Notre positionnement</span><span data-en>Our positioning</span></h3>
+          <p><span data-fr>TCG Niger adopte une approche transversale et mobilise les expertises les plus pertinentes selon le contexte du client et la nature de sa mission.</span><span data-en>TCG Niger takes a cross-functional approach and mobilizes the most relevant expertise depending on the client's context and the nature of the assignment.</span></p>
+          <ul class="checklist">
+            <li><span data-fr>Expertise adaptable à différents secteurs</span><span data-en>Expertise adaptable across sectors</span></li>
+            <li><span data-fr>Analyse stratégique et recommandations ciblées</span><span data-en>Strategic analysis and targeted recommendations</span></li>
+            <li><span data-fr>Appui sérieux pour les décisions et partenariats</span><span data-en>Serious support for decisions and partnerships</span></li>
+          </ul>
+        </div>
+        <div class="feature-box">
+          <h3><span data-fr>Secteurs d'intérêt</span><span data-en>Areas of interest</span></h3>
+          <p><span data-fr>Selon les besoins, nous pouvons intervenir sur des problématiques liées à l'énergie, aux investissements, au commerce, à la santé, aux services, à l'agro-industrie, à la technologie et à d'autres secteurs en développement.</span><span data-en>Depending on client needs, we can engage on matters related to energy, investment, trade, healthcare, services, agribusiness, technology and other emerging sectors.</span></p>
+          <ul class="checklist">
+            <li><span data-fr>Énergie & ressources</span><span data-en>Energy & resources</span></li>
+            <li><span data-fr>Commerce & expansion de marché</span><span data-en>Trade & market expansion</span></li>
+            <li><span data-fr>Investissement, services & opportunités multisectorielles</span><span data-en>Investment, services & multi-sector opportunities</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark" id="approche">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow"><span data-fr>Notre approche</span><span data-en>Our approach</span></p>
+        <h2><span data-fr>Une démarche claire, disciplinée et orientée résultats.</span><span data-en>A clear, disciplined and results-oriented process.</span></h2>
+      </div>
+      <div class="steps">
+        <div class="step"><span>01</span><h3><span data-fr>Comprendre</span><span data-en>Understand</span></h3><p><span data-fr>Nous analysons votre besoin, vos objectifs et votre contexte sectoriel.</span><span data-en>We assess your needs, objectives and sector context.</span></p></div>
+        <div class="step"><span>02</span><h3><span data-fr>Structurer</span><span data-en>Structure</span></h3><p><span data-fr>Nous clarifions les priorités, les axes de travail et la stratégie adaptée.</span><span data-en>We clarify priorities, workstreams and the right strategy.</span></p></div>
+        <div class="step"><span>03</span><h3><span data-fr>Mobiliser</span><span data-en>Mobilize</span></h3><p><span data-fr>Nous activons les ressources, expertises et connexions pertinentes.</span><span data-en>We activate the relevant resources, expertise and connections.</span></p></div>
+        <div class="step"><span>04</span><h3><span data-fr>Accompagner</span><span data-en>Execute</span></h3><p><span data-fr>Nous assurons un suivi professionnel des prochaines étapes et opportunités.</span><span data-en>We ensure professional follow-through on next steps and opportunities.</span></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="wrap contact-wrap">
+      <div>
+        <p class="eyebrow"><span data-fr>Entrons en contact</span><span data-en>Get in touch</span></p>
+        <h2><span data-fr>Présentez-nous votre projet, votre besoin ou votre opportunité.</span><span data-en>Tell us about your project, need or opportunity.</span></h2>
+        <p><span data-fr>Vous représentez une entreprise, un investisseur, une institution ou une organisation ? Notre équipe est disponible pour examiner votre besoin et envisager un accompagnement adapté.</span><span data-en>Are you a company, investor, institution or organization? Our team is available to review your needs and consider the right support approach.</span></p>
+        <a class="mail" href="mailto:contact@tcgne.com?subject=Business%20Inquiry%20-%20Twelve%20Consulting%20Group">contact@tcgne.com ↗</a>
+      </div>
+      <div class="contact-aside">
+        <b><span data-fr>Profil</span><span data-en>Profile</span></b>
+        <div><span data-fr>Cabinet de conseil stratégique et développement d'affaires</span><span data-en>Strategic advisory and business development firm</span></div>
+        <br>
+        <b><span data-fr>Portée</span><span data-en>Scope</span></b>
+        <div><span data-fr>Niger · Afrique · Partenariats internationaux</span><span data-en>Niger · Africa · International partnerships</span></div>
+        <br>
+        <b><span data-fr>Langues de travail</span><span data-en>Working languages</span></b>
+        <div><span data-fr>Français & anglais</span><span data-en>English & French</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year"></span> Twelve Consulting Group · TCG Niger. <span data-fr>Tous droits réservés.</span><span data-en>All rights reserved.</span></span>
+    <span><span data-fr>Stratégie · Expertise · Croissance</span><span data-en>Strategy · Expertise · Growth</span></span>
+  </div>
+</footer>
+<div class="legal"><span data-fr>Site vitrine institutionnel — les détails de mission et d'intervention peuvent être précisés selon vos besoins.</span><span data-en>Institutional website — engagement and scope details can be tailored to your needs.</span></div>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('language').addEventListener('click',function(){
+  const lang=document.documentElement.lang==='fr'?'en':'fr';
+  document.documentElement.lang=lang;
+  this.textContent=lang==='fr'?'EN':'FR';
+  document.title=lang==='fr'?'TCG Niger | Twelve Consulting Group':'TCG Niger | Twelve Consulting Group';
+});
+const menuToggle=document.getElementById('menu-toggle');
+const navigation=document.getElementById('main-navigation');
+function closeMenu(){navigation.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.setAttribute('aria-label',document.documentElement.lang==='fr'?'Ouvrir le menu':'Open menu')}
+menuToggle.addEventListener('click',function(){
+  const isOpen=navigation.classList.toggle('open');
+  this.setAttribute('aria-expanded',String(isOpen));
+  this.setAttribute('aria-label',isOpen?(document.documentElement.lang==='fr'?'Fermer le menu':'Close menu'):(document.documentElement.lang==='fr'?'Ouvrir le menu':'Open menu'));
+});
+navigation.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
+window.addEventListener('resize',()=>{if(window.innerWidth>850)closeMenu()});
+</script>
+</body>
+</html>
